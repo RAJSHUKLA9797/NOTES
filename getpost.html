@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>get request</h2>
+    <form action = "http://localhost:3000/tacos" method = "get">/*this does get request*/
+
+        <input type = "text" name = "meat">
+
+         <input type = "number" name = "qty">
+
+         <button>submit</button>
+
+</form>
+<h2>post request</h2>
+<form action = "http://localhost:3000/tacos" method = "post">/*this does post request*/
+
+        <input type = "text" name = "meat">/*iska detail i.e meat:___ and qty:__ ye sb req.body me milega*/
+
+         <input type = "number" name = "qty">
+
+         <button>submit</button>
+
+</form>
+</body>
+</html>
